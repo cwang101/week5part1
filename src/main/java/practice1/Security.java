@@ -11,7 +11,7 @@ public class Security {
     }
 
     public boolean hasAccess(User user, Permission permission, ImmutableList<Permission> permissions) {
-        
+
         if (user == null) return false;
         if (permission == null) return false;
         if (permissions.size() == 0) return false;
